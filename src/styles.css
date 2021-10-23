@@ -1,0 +1,102 @@
+.weather-app {
+  font-family: "Poppins", sans-serif;
+  max-width: 800px;
+
+  margin: auto;
+  margin-top: 50px;
+  background: #fff1cf;
+  border-radius: 40px;
+  box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+h1,
+h2 {
+  font-family: "Caveat Brush", cursive;
+  color: #015668;
+}
+
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 150px;
+  display: inline;
+}
+
+.weather-description {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600px;
+  color: #015668;
+}
+
+.degree {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: 600px;
+  color: #015668;
+  float: top;
+}
+
+ul {
+  list-style: none;
+  padding: none;
+  margin: none;
+}
+.main-temp-image {
+  font-size: 150px;
+  padding-right: 20px;
+  color: #015668;
+}
+
+.temp {
+  text-align: right;
+}
+
+a {
+  text-align: top;
+  margin: none;
+  color: #015668;
+  text-decoration: none;
+}
+
+.search-city {
+  font-family: "Poppins", sans-serif;
+  color: #fff1cf;
+  background: #fff1cf;
+  margin: 0;
+  padding: 0%;
+}
+
+.weather-pic {
+  font-size: 45px;
+  padding: 10px;
+  text-align: center;
+  color: #015668;
+}
+.weather-chart {
+  padding: 20px 10px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600px;
+  color: #015668;
+  font-size: 16px;
+}
+
+.button {
+  color: #ffd369;
+  background: #015668;
+  padding: 5px 4px;
+  border-radius: 3px;
+  transition: all 150ms ease-in-out;
+  border: none;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 0.4;
+  color: #ffd369;
+}
