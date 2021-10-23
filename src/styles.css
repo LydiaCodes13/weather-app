@@ -10,6 +10,9 @@
   padding: 20px;
 }
 
+.container {
+  max-width: 800px;
+}
 h1,
 h2 {
   font-family: "Caveat Brush", cursive;
@@ -99,4 +102,12 @@ a {
   cursor: pointer;
   opacity: 0.4;
   color: #ffd369;
+}
+
+.coded-by {
+  font-family: "Poppins", sans-serif;
+  color: #015668;
+  text-align: right;
+  margin: 80px 20px;
+  padding: 100px 20px;
 }
